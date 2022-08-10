@@ -155,7 +155,7 @@
 /* -- Chroma Highlight -- */
 /* Background */
 .prose .chroma {
-  @apply rounded-md text-neutral-700 bg-neutral-50;
+  @apply rounded-md text-neutral-700 bg-neutral-50 dark:bg-neutral-700 dark:text-neutral-200;
 }
 
 @tailwind utilities;
