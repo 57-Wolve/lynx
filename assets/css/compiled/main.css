@@ -1015,6 +1015,15 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.prose :where(kbd):not(:where([class~="not-prose"] *)) {
+  --tw-bg-opacity:1;
+  background-color:rgb(5 28 44/var(--tw-bg-opacity));
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
 .link-amazon {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
