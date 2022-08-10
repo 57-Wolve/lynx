@@ -3,6 +3,18 @@
 @tailwind base;
 @tailwind components;
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #38393a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0087f8;
+}
+
 /* Scale SVG icons to text size */
 .icon svg {
   height: 1em;
