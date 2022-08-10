@@ -137,3 +137,8 @@ Feel free to get in touch with any issues or suggestions for new features you'd 
 - 🙋‍♀️ **General questions:** Head to [GitHub Discussions](https://github.com/jpanther/lynx/discussions)
 
 If you're able to fix a bug or implement a new feature, I welcome PRs for this purpose. Learn more in the [contributing guidelines](https://github.com/jpanther/lynx/blob/dev/CONTRIBUTING.md).
+
+
+
+npm install -D tailwindcss
+npm run build
