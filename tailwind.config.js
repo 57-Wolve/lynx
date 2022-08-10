@@ -7,7 +7,7 @@ module.exports = {
     "./themes/lynx/layouts/**/*.html",
     "./themes/lynx/content/**/*.{html,md}",
   ],
-  darkMode: "media",
+  darkMode: "dark",
   theme: {
     colors: {
       white: "#fff",
